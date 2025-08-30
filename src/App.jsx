@@ -12,9 +12,7 @@ export default function App() {
       <IconComponent icon={<FaTwitter size={20}/>}/>
       <IconComponent icon={<FaLinkedin size={20}/>}/>
       </div>
-
-<Home/>
-
+    <Home/>
     </div>
   )
 }
