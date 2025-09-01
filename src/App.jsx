@@ -13,6 +13,13 @@ export default function App() {
       <IconComponent icon={<FaLinkedin size={20}/>}/>
       </div>
     <Home/>
+
+    
     </div>
+
+
+
+
+
   )
 }

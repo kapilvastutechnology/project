@@ -2,11 +2,12 @@ import { Button } from "@/components/ui/button"
 import { FaLongArrowAltUp } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
 import { RiNumber1 } from "react-icons/ri";
+
+
 export default function PictureSection() {
-  
   return (
     <>
-    <div className=" grid grid-cols-[2fr_1fr] gap-3 max-sm:grid-cols-1 bg-gray-100">
+    <div className=" grid grid-cols-[2fr_1fr]   gap-3 max-sm:grid-cols-1 bg-gray-100">
            <div>
             <div className=" p-4 bg-white">
              <h1 className="text-2xl font-bold text-center">TITLE HEADING</h1>
@@ -22,14 +23,15 @@ export default function PictureSection() {
               </div>
 
               <div className="flex justify-between mt-4 ">
-                <Button
-                className={`hover:bg-red-600 bg-white border-2 text-black `}> <AiFillLike /> Likes</Button> 
+                <Button className={`hover:bg-red-600 bg-white border-2 text-black `}> <AiFillLike /> Likes</Button> 
                  <Button className={`hover:bg-green-500`}>Replies <h1 className="border-2 bg-white text-black"><RiNumber1 /></h1> </Button>
               </div>
             </div>
            </div>
 
-          <div>second box</div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum magni tenetur dolor voluptatum sint odit. Minima enim et error voluptate nulla nemo itaque commodi obcaecati iure, eligendi, temporibus explicabo!</p>
+          </div>
 
           <div>
           <div>
@@ -47,8 +49,7 @@ export default function PictureSection() {
               </div>
 
               <div className="flex justify-between mt-4 ">
-                <Button
-                className={`hover:bg-red-600 bg-white border-2 text-black`} > <AiFillLike /> Likes</Button> 
+                <Button className={`hover:bg-red-600 bg-white border-2 text-black`} > <AiFillLike /> Likes</Button> 
                  <Button className={`hover:bg-green-500`}>Replies </Button>
               </div>
             </div>
@@ -77,8 +78,7 @@ export default function PictureSection() {
               </div>
 
               <div className="flex justify-between mt-4 ">
-                <Button
-                className={`hover:bg-red-600 bg-white border-2 text-black`}> <AiFillLike /> Likes</Button> 
+                <Button className={`hover:bg-red-600 bg-white border-2 text-black`}> <AiFillLike /> Likes</Button> 
                  <Button className={`hover:bg-green-500`}>Replies</Button>
               </div>
 
@@ -99,7 +99,6 @@ export default function PictureSection() {
           <Button className="rounded-[xl] p-3 "><FaLongArrowAltUp />To the top</Button>
           <p className="mt-8 text-white">Power by Anuj</p>
         </div>
-      
     
       </>
   )
