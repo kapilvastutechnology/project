@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { FaLongArrowAltUp } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
+import { RiNumber1 } from "react-icons/ri";
 export default function PictureSection() {
   
   return (
@@ -22,8 +23,8 @@ export default function PictureSection() {
 
               <div className="flex justify-between mt-4 ">
                 <Button
-                className={`hover:bg-red-600`}> <AiFillLike /> Likes</Button> 
-                 <Button className={`hover:bg-green-500`}>Replies</Button>
+                className={`hover:bg-red-600 bg-white border-2 text-black `}> <AiFillLike /> Likes</Button> 
+                 <Button className={`hover:bg-green-500`}>Replies <h1 className="border-2 bg-white text-black"><RiNumber1 /></h1> </Button>
               </div>
             </div>
            </div>
@@ -47,8 +48,8 @@ export default function PictureSection() {
 
               <div className="flex justify-between mt-4 ">
                 <Button
-                className={`hover:bg-red-600`}> <AiFillLike /> Likes</Button> 
-                 <Button className={`hover:bg-green-500`}>Replies</Button>
+                className={`hover:bg-red-600 bg-white border-2 text-black`} > <AiFillLike /> Likes</Button> 
+                 <Button className={`hover:bg-green-500`}>Replies </Button>
               </div>
             </div>
            </div>
@@ -77,7 +78,7 @@ export default function PictureSection() {
 
               <div className="flex justify-between mt-4 ">
                 <Button
-                className={`hover:bg-red-600`}> <AiFillLike /> Likes</Button> 
+                className={`hover:bg-red-600 bg-white border-2 text-black`}> <AiFillLike /> Likes</Button> 
                  <Button className={`hover:bg-green-500`}>Replies</Button>
               </div>
 
