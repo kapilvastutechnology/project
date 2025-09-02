@@ -18,7 +18,7 @@ export default function Picture() {
 
         <div>
             <h1 className="text-white p-3 px-4 text-2xl">Jan's</h1>
-            <h1 className=" text-white p-3 px-4 text-6xl max-sm:text-4xl max-md:text-4xl">FAISHON BLOG</h1>
+            <h1 className=" text-white p-3 px-4 text-6xl max-sm:text-lg max-md:text-4xl">FAISHON BLOG</h1>
 
             <div className="mt-3 px-4">
                  <AlertDialog>
