@@ -10,7 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroui/card": "^2.2.24",
+    "@heroui/checkbox": "^2.3.25",
+    "@heroui/system": "^2.4.21",
+    "@heroui/theme": "^2.4.21",
     "@tailwindcss/vite": "^4.1.12",
+    "framer-motion": "^12.23.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.12"
