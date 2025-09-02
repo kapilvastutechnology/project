@@ -152,7 +152,7 @@ export default function PictureSection() {
 
 
 
-        <div className="bg-gray-500 p-20">
+        <div className="bg-gray-500 p-5">
           <Button className="rounded-[xl] p-3 "><FaLongArrowAltUp />To the top</Button>
           <p className="mt-8 text-white">Power by Anuj</p>
         </div>
