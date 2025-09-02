@@ -29,8 +29,23 @@ export default function PictureSection() {
             </div>
            </div>
 
-          <div className="max-sm:order-5">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum magni tenetur dolor voluptatum sint odit. Minima enim et error voluptate nulla nemo itaque commodi obcaecati iure, eligendi, temporibus explicabo!</p>
+          <div className="max-sm:order-5 ">
+            {/* <div>
+              <h1 className="mx-4" >My Name</h1>
+             <div className="flex justify-center mt-4 m-4">
+             <img src="https://www.w3schools.com/w3images/avatar_girl2.jpg" alt="" className="w-[100%]" />
+            </div>
+            </div> */}
+
+            <div className="w-1fr border-black  m-4">
+               <div className="flex justify-center">
+             <img src="https://www.w3schools.com/w3images/avatar_girl2.jpg" alt="" className="w-[100%]" />
+            </div>
+            <div className="bg-black text-white space-y-4">
+              <h1 className="mx-4 text-2xl max-sm:text-lg font-bold">My Name</h1>
+              <p className="mx-4 font-bold pb-4">Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+            </div>
+            </div>
           </div>
 
           <div>
