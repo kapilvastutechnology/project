@@ -9,7 +9,7 @@ export default function PictureSection() {
     <>
     <div className=" grid grid-cols-[2fr_1fr] grid-flow-row gap-3 max-sm:grid-cols-1 bg-gray-100">
            <div>
-            <div className=" p-4 bg-white">
+            <div className=" p-4 bg-white max-sm:order-1">
              <h1 className="text-2xl font-bold text-center">TITLE HEADING</h1>
             <p className="font-bold text-center">Title description  <span className="text-gray-400" >,May 2, 2016</span></p>
 
@@ -29,13 +29,13 @@ export default function PictureSection() {
             </div>
            </div>
 
-          <div>
+          <div className="max-sm:order-5">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum magni tenetur dolor voluptatum sint odit. Minima enim et error voluptate nulla nemo itaque commodi obcaecati iure, eligendi, temporibus explicabo!</p>
           </div>
 
           <div>
           <div>
-            <div className=" p-4 bg-white">
+            <div className=" p-4 bg-white max-sm:order-2">
              <h1 className="text-2xl font-bold text-center">TITLE HEADING</h1>
             <p className="font-bold text-center">Title description  <span className="text-gray-400" >,April 23, 2016</span></p>
 
@@ -59,12 +59,12 @@ export default function PictureSection() {
 
 
 
-          <div>fourth box</div>
+          <div className="max-sm:order-6">fourth box</div>
 
 
           <div>
              <div>
-            <div className=" p-4 bg-white">
+            <div className=" p-4 bg-white max-sm:order-3">
              <h1 className="text-2xl font-bold text-center">TITLE HEADING</h1>
             <p className="font-bold text-center">Title description  <span className="text-gray-400" >,April 7, 2016</span></p>
 
@@ -88,8 +88,8 @@ export default function PictureSection() {
           </div>
 
 
-          <div>box1</div>
-          {/* <div>box1</div> */}
+          <div className="max-sm:order-7">box1</div>
+          <div className="max-sm:order-8">box1</div>
 
       </div>
 
