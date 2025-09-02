@@ -7,7 +7,7 @@ import { RiNumber1 } from "react-icons/ri";
 export default function PictureSection() {
   return (
     <>
-    <div className=" grid grid-cols-[2fr_1fr]   gap-3 max-sm:grid-cols-1 bg-gray-100">
+    <div className=" grid grid-cols-[2fr_1fr] grid-flow-row gap-3 max-sm:grid-cols-1 bg-gray-100">
            <div>
             <div className=" p-4 bg-white">
              <h1 className="text-2xl font-bold text-center">TITLE HEADING</h1>
