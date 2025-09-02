@@ -1,10 +1,13 @@
+import React from "react";
 import { Button } from "@/components/ui/button"
 import { FaLongArrowAltUp } from "react-icons/fa";
-import { AiFillLike } from "react-icons/ai";
-import { RiNumber1 } from "react-icons/ri";
+import { useState } from "react";
+// import { AiFillLike } from "react-icons/ai";
+// import { RiNumber1 } from "react-icons/ri";
 
 
 export default function PictureSection() {
+    const [isFollowed, setIsFollowed] = React.useState(false)
   return (
     <>
     <div className=" grid grid-cols-[2fr_1fr] grid-flow-row gap-3 max-sm:grid-cols-1 bg-gray-100">
@@ -23,20 +26,19 @@ export default function PictureSection() {
               </div>
 
               <div className="flex justify-between mt-4 ">
-                <Button className={`hover:bg-red-600 bg-white border-2 text-black `}> <AiFillLike /> Likes</Button> 
-                 <Button className={`hover:bg-green-500`}>Replies <h1 className="border-2 bg-white text-black"><RiNumber1 /></h1> </Button>
+                
+                <Button
+                  variant={isFollowed ? "outline" : "default"}
+                  className={isFollowed ? "text-foreground border border-border bg-transparent" : ""}
+                  onClick={() => setIsFollowed(!isFollowed)}>
+                  {isFollowed ? "Liked" : "Like"}
+                </Button>
+                 
               </div>
             </div>
            </div>
 
           <div className="max-sm:order-5 ">
-            {/* <div>
-              <h1 className="mx-4" >My Name</h1>
-             <div className="flex justify-center mt-4 m-4">
-             <img src="https://www.w3schools.com/w3images/avatar_girl2.jpg" alt="" className="w-[100%]" />
-            </div>
-            </div> */}
-
             <div className="w-1fr border-black  m-4">
                <div className="flex justify-center">
              <img src="https://www.w3schools.com/w3images/avatar_girl2.jpg" alt="" className="w-[100%]" />
@@ -64,17 +66,26 @@ export default function PictureSection() {
               </div>
 
               <div className="flex justify-between mt-4 ">
-                <Button className={`hover:bg-red-600 bg-white border-2 text-black`} > <AiFillLike /> Likes</Button> 
-                 <Button className={`hover:bg-green-500`}>Replies </Button>
+                  <Button
+                    variant={isFollowed ? "outline" : "default"}
+                    className={isFollowed ? "text-foreground border border-border bg-transparent" : ""}
+                    onClick={() => setIsFollowed(!isFollowed)}>
+                    {isFollowed ? "Liked" : "Like"}
+                  </Button>
               </div>
             </div>
            </div>
-
           </div>
 
 
-
-          <div className="max-sm:order-6">fourth box</div>
+          <div className="max-sm:order-6 m-4">
+            <div className="bg-black text-white p-4 text-4xl max-sm:text-lg">
+              <h1>Popular Posts</h1>
+            </div>
+            <div>
+              <div></div>
+            </div>
+          </div>
 
 
           <div>
@@ -93,8 +104,15 @@ export default function PictureSection() {
               </div>
 
               <div className="flex justify-between mt-4 ">
-                <Button className={`hover:bg-red-600 bg-white border-2 text-black`}> <AiFillLike /> Likes</Button> 
-                 <Button className={`hover:bg-green-500`}>Replies</Button>
+                {/* <Button className={`hover:bg-red-600 bg-white border-2 text-black`}> <AiFillLike /> Likes</Button> 
+                 <Button className={`hover:bg-green-500`}>Replies</Button> */}
+
+                  <Button
+                    variant={isFollowed ? "outline" : "default"}
+                    className={isFollowed ? "text-foreground border border-border bg-transparent" : ""}
+                    onClick={() => setIsFollowed(!isFollowed)}>
+                    {isFollowed ? "Liked" : "Like"}
+                  </Button>
               </div>
 
 
@@ -103,8 +121,32 @@ export default function PictureSection() {
           </div>
 
 
-          <div className="max-sm:order-7">box1</div>
-          <div className="max-sm:order-8">box1</div>
+          <div className="max-sm:order-7 m-4 bg-white">
+            <div className="bg-black text-white p-4 text-4xl max-sm:text-lg">
+              <h1 className="text-3xl max-sm:lg">Adevertise</h1>
+            </div>
+            <div className=" flex justify-center items-center h-[300px] bg-gray-200 m-4">
+                <h1>Your AD Here</h1>
+              </div>
+          </div>
+
+
+          <div className="max-sm:order-8 m-4">
+             <div className="bg-black text-white p-4 text-4xl max-sm:text-lg">
+              <h1 className="text-3xl max-sm:lg">Adevertise</h1>
+            </div>
+            <div className=" flex justify-around items-center  gap-4 m-4 w-full  flex-wrap">
+                <div className="bg-black p-3 text-white" >Fashion</div>
+                <div className="bg-gray-200 p-3" >New York</div>
+                <div className="bg-gray-200 p-3" >London</div>
+                <div className="bg-gray-200 p-3" >Hats</div>
+                <div className="bg-gray-200 p-3" >Norway</div>
+                <div className="bg-gray-200 p-3" >Sweaters</div>
+                <div className="bg-gray-200 p-3" >Ideas</div>
+                <div className="bg-gray-200 p-3" >Deals</div>
+                <div className="bg-gray-200 p-3" >Accessories</div>
+              </div>
+          </div>
 
       </div>
 
