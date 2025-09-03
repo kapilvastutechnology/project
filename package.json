@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroui/button": "^2.2.25",
     "@heroui/card": "^2.2.24",
     "@heroui/checkbox": "^2.3.25",
+    "@heroui/input": "^2.4.26",
     "@heroui/system": "^2.4.21",
     "@heroui/theme": "^2.4.21",
     "@tailwindcss/vite": "^4.1.12",
