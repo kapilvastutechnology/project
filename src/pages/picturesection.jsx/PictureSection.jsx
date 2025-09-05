@@ -48,6 +48,16 @@ export default function PictureSection() {
               <p className="mx-4 font-bold pb-4">Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
             </div>
             </div>
+
+          <div className="max-sm:order-6 m-4">
+            <div className="bg-black text-white p-4 text-4xl max-sm:text-lg">
+              <h1>Popular Posts</h1>
+            </div>
+            <div>
+              <div></div>
+            </div>
+          </div>
+
           </div>
 
           <div>
@@ -56,7 +66,7 @@ export default function PictureSection() {
              <h1 className="text-2xl font-bold text-center">TITLE HEADING</h1>
             <p className="font-bold text-center">Title description  <span className="text-gray-400" >,April 23, 2016</span></p>
 
-             <div className="flex justify-center mt-4">
+             <div className="flex justify-center mt-4 ">
              <img src="https://www.w3schools.com/w3images/man_hat.jpg" alt="" className="w-[100%]" />
             </div>
 
@@ -78,15 +88,7 @@ export default function PictureSection() {
           </div>
 
 
-          <div className="max-sm:order-6 m-4">
-            <div className="bg-black text-white p-4 text-4xl max-sm:text-lg">
-              <h1>Popular Posts</h1>
-            </div>
-            <div>
-              <div></div>
-            </div>
-          </div>
-
+        
 
           <div>
              <div>
