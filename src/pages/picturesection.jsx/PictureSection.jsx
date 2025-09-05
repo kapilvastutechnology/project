@@ -48,16 +48,6 @@ export default function PictureSection() {
               <p className="mx-4 font-bold pb-4">Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
             </div>
             </div>
-
-          <div className="max-sm:order-6 m-4">
-            <div className="bg-black text-white p-4 text-4xl max-sm:text-lg">
-              <h1>Popular Posts</h1>
-            </div>
-            <div>
-              <div></div>
-            </div>
-          </div>
-
           </div>
 
           <div>
@@ -88,7 +78,15 @@ export default function PictureSection() {
           </div>
 
 
-        
+          <div className="max-sm:order-6 m-4">
+            <div className="bg-black text-white p-4 text-4xl max-sm:text-lg">
+              <h1>Popular Posts</h1>
+            </div>
+            <div>
+              <div></div>
+            </div>
+          </div>
+
 
           <div>
              <div>
